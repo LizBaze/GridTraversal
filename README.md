@@ -3,6 +3,8 @@
 This game is deployed at:
 http://3.141.163.188/GridTraversal/game.html
 
+You can play using your arrow keys. It will not work on phones or tablets.
+
 This game was created as an interview exercise. The problem as stated: 
 
 In a 100 by 100 2-D grid world, you are given a starting point A on one side of the grid, and an
@@ -21,7 +23,7 @@ Build a React application that allows a player to use the arrow keys to play thi
 
 
 ### Methodology
-As I unfortunately don't know React, I took the liberty of writing the game in plain Javascript instead. The grid is a randomly generated 2D array consisting of ints between 1 and 7. Iterating through the grid and using DOM manipulation, I was able to print table cells for each grid tile. A value of 1 was printed as lava, 2 as mud, 3 as speeder, and 4-7 as blank tiles. 
+The grid is a randomly generated 2D array consisting of ints between 1 and 7. Iterating through the grid and using DOM manipulation, I was able to print table cells for each grid tile. A value of 1 was printed as lava, 2 as mud, 3 as speeder, and 4-7 as blank tiles. 
 
 I assigned each table cell an id based on it's X and Y positions so that I could access them again in other functions, namely the function that processes player movements. I also assigned them their corresponding types to process their effect on the player's health and moves when stepped on. 
 
