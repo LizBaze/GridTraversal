@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link>
+  <title>Grid Traversal!</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://unpkg.com/react@18/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script src="game.js"></script>
+    <link rel="stylesheet" href="game.css">
+</head>
+  <body>
+        <h1>Welcome to grid traversal</h1>
+        <table class="keyTable" id = "key">
+            <thead class="keyTable">
+                <th>Icon</th>
+                <th>Meaning</th>
+                <th>Effect</th>
+            </thead>
+            <tbody class="keyTable">
+                <tr>
+                    <td><img src="https://cdn.discordapp.com/attachments/681409835446698007/1068994805356568736/R8FhH3pzAVc0AAAAABJRU5ErkJggg.png" alt=""></td>
+                    <td>Player</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="https://thumbs.dreamstime.com/b/bold-red-letter-sign-shape-stock-vector-illustration-clip-art-graphics-bold-red-letter-sign-shape-241934821.jpg" alt=""></td>
+                    <td>Goal</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="https://cdn.discordapp.com/attachments/681409835446698007/1068981263249199187/2Q.png" alt=""></td>
+                    <td>Lava</td>
+                    <td>-10 Moves, -50 Health</td>
+                </tr>
+                <tr>
+                    <td><img src="https://st2.depositphotos.com/2225062/10009/v/450/depositphotos_100091406-free-stock-illustration-ground-pattern-pixel-art-illustration.jpg" alt=""></td>
+                    <td>Mud</td>
+                    <td>-5 Moves, -10 Health</td>
+                </tr>
+                <tr>
+                    <td><img src="https://cdn.discordapp.com/attachments/681409835446698007/1068982398156554270/9k.png" alt=""></td>
+                    <td>Blank</td>
+                    <td>-1 Move</td>
+                </tr>
+                <tr>
+                    <td><img src="https://cdn.discordapp.com/attachments/681409835446698007/1068982876739223693/Screen_Shot_2023-01-28_at_1.55.29_PM.png" alt=""></td>
+                    <td>Speeder</td>
+                    <td>-5 Health</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <h3 id = "health"></h3>
+        <h3 id="moves"></h3>
+        <h2 id="gameover"></h2>
+        <br>
+
+        <table id = "gridContainer" ></table>
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,17 @@
+
+
+img {
+    padding: 0px 5px;
+    width: 12px;
+    height: 12px;
+}
+
+#key > th, td {
+    border: 1px solid black;
+}
+
+#key{
+    border-collapse: collapse;
+}
+
+
